@@ -117,3 +117,7 @@ h1 {
   min-height: 100px;
   border: 1px solid #000;
 }
+
+.kanban-column + .kanban-column {
+  border-left: 1px solid #000; /* Add vertical lines between columns */
+}
